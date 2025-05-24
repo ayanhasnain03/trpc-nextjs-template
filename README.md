@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Next.js + tRPC Template
+
+A modern, fully-typed, and batteries-included starter template for building scalable, type-safe full-stack applications with **Next.js** and **tRPC**.
+
+---
+
+## Description
+
+This template provides a robust foundation to kickstart your Next.js projects with seamless end-to-end type safety using [tRPC](https://trpc.io/). Built for developers who want to maximize productivity without compromising on maintainability or developer experience.
+
+- **Type-safe API routes** with automatic inference between frontend and backend
+- Fully configured with **Next.js 15** (app/router)
+- Supports **React Query** for effortless data fetching and caching
+- Includes example CRUD operations, authentication setup, and error handling best practices
+- Minimal and clean project structure for easy scalability and customization
+- Pre-configured **ESLint**, **Prettier**, and **TypeScript** for a consistent codebase
+- Simple deployment ready (Vercel, Netlify, etc.)
+
+Perfect for **building APIs and frontends together** with zero API client code generation — just write your backend logic and use it directly in the frontend with full type inference!
+
+---
+
+## Features
+
+- Next.js (latest stable)
+- tRPC for end-to-end type safety
+- React Query integration for data synchronization
+- Example API router & React hooks
+- TypeScript-first with full type inference
+- Ready for REST & RPC style API calls
+- Easy environment variable management
+- Clean folder structure for scalability
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+git clone https://github.com/yourusername/next-trpc-template.git
+cd next-trpc-template
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Visit http://localhost:3000 to see the app in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why use this template?
+If you want to build a modern, scalable, and type-safe full-stack app without the hassle of managing REST endpoints, boilerplate code, or API schemas, this template is your best start.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+License
+MIT © Ayan Hasnain
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Let me know if you want me to add badges, screenshots, or usage examples!
